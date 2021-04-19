@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+/* Basic CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Source Sans Pro !important;
+    background-color: #c15050;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Navbar CSS */
+.navbar {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.02);
+}
+
+.navbar-right ul {
+    list-style-type: none;
+}
+
+.navbar-right li {
+    display: inline;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 20px 15px;
+}
+
+/* Banner CSS */
+.banner-area {
+    position: relative;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.banner-left {
+    padding-right: 50px;
+}
+
+.banner-left h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.banner-left p {
+    font-size: 20px;
+}
+
+.banner-right img {
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+}
